@@ -5,7 +5,7 @@ function hiddenMenu(){
 
 setTimeout(hiddenMenu, 3000);
 
-// LOADER - DOM JS
+// LOADER - DOM JS (Ajout de la class hidden pour le chargement de la page)
 function showContent() {
     document.querySelector('.loader-container').classList.add('hidden');
 }

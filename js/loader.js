@@ -1,6 +1,6 @@
 // HIDDEN MENU
 function hiddenMenu(){
-    document.querySelector('.navbar').classList.add('afficheMenu');
+    document.querySelector('.navbar').classList.add('afficheMenu') ;
 }
 
 setTimeout(hiddenMenu, 3000);

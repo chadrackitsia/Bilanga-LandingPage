@@ -12,7 +12,17 @@ body {
 
 
 /*** BARRE DE MUNU / NAVIGATION ****/
-.navbar {
+
+/** Cache la barre de menu */
+.navbar{
+    opacity: 0;
+    visibility: hidden
+}
+
+/** Ajout de la classe "AfficheMenu" et apparition de la barre de menu */
+.navbar.afficheMenu {
+    opacity: 100%;
+    visibility: visible;
     text-transform: uppercase;
     font-weight: 600;
     font-size: .9rem;
